@@ -125,7 +125,7 @@ public class MSButton
           displayLosingMessage();
         }
           else if(countMines(myRow, myCol) > 0) {
-           myLabel = String.valueOf(countMines(myRow,myCol));
+           myLabel = Integer.toString(countMines(myRow,myCol));
           }
           else if(isWon() == true){
         displayWinningMessage();
