@@ -172,8 +172,8 @@ public class MSButton
     {
         return clicked;
     }
-    public boolean setClicked(boolean var)
+    public boolean setClicked(boolean lol)
     {
-       return clicked = var; 
+       return clicked = lol; 
     }
 }
